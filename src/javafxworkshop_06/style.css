@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2016, 11:45:28 PM
+    Author     : mhrimaz
+*/
+.progress-indicator {    
+    -fx-progress-color: rgb(45,137,239);    
+}
+.progress-indicator .indicator {
+    -fx-background-color:rgb(231,231,231);
+    -fx-border-color: -fx-box-border;  
+}
+.progress-indicator .progress {
+    -fx-background-color: transparent;       
+     -fx-padding: 2em; 
+}
+.progress-indicator:indeterminate .spinner {    
+    -fx-padding: 1.5em;
+}
+.progress-indicator .percentage {
+    -fx-font: 11px "Segoe UI";    
+    -fx-text-fill: #212121;    
+}
